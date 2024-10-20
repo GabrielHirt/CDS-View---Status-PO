@@ -37,7 +37,7 @@ This CDS View is designed to generate a comprehensive report on purchase orders:
 This query helps extract key purchase order statuses along with their creation and last modification dates.
 
 
-**Purchase Follow-up ABAP CDS View** ⚙️
+**Purchase PO Status ABAP CDS View** ⚙️
 ```abap
 @AbapCatalog.sqlViewName: 'Z_CSD_STATUSPO'
 @AbapCatalog.compiler.compareFilter: true
@@ -71,7 +71,7 @@ where
 ```
 
 
-**Purchase Follow-up ABAP CDS View** ⚙️
+**Purchase Last PO Approval Date ABAP CDS View** ⚙️
 ```abap
 @AbapCatalog.sqlViewName: 'ZCDS_LAST_CHANGE'
 @AbapCatalog.compiler.compareFilter: true
